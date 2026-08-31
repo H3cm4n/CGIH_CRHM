@@ -130,14 +130,25 @@ int main() {
         //glDrawElements(GL_TRIANGLES, 3,GL_UNSIGNED_INT,0);
 
 
-		//Exercise
-		//glDrawElements(GL_TRIANGLES, 6,GL_UNSIGNED_INT,0);
-		//glDrawArrays(GL_LINES,0,4);
-		
+		//Ejercicios
+
+		//Ejercicio 1
 		//glPointSize(10);
 		//glDrawArrays(GL_POINTS,0,4);
+
+		//Ejercicio 2
+		//glDrawArrays(GL_LINES,0,4);
+		
+		//Ejercicio 3
+		//glDrawElements(GL_TRIANGLES, 6,GL_UNSIGNED_INT,0);
         
-        glBindVertexArray(0);
+		// Ejercicio 4A: Primer Triángulo
+		// glDrawElements(GL_TRIANGLES, 3, GL_UNSIGNED_INT, 0);
+
+		// Ejercicio 4B: Segundo Triángulo
+		// glDrawElements(GL_TRIANGLES, 3, GL_UNSIGNED_INT, (void*)(3 * sizeof(GLuint)));
+
+        //glBindVertexArray(0);
     
 		// Swap the screen buffers
 		glfwSwapBuffers(window);
