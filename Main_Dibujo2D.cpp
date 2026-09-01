@@ -65,8 +65,9 @@ int main() {
 		-0.5f,  0.5f, 0.0f,   1.0f,1.0f,0.0f, // top left 
 	};
 	unsigned int indices[] = {  // note that we start from 0!
-		3,2,1,// second Triangle
-		0,1,3,
+		3,2,1, // second Triangle
+		0,1,3, 
+		//0,3,2  //Ejercicio 4A
 		
 	};
 
@@ -143,10 +144,11 @@ int main() {
 		//glDrawElements(GL_TRIANGLES, 6,GL_UNSIGNED_INT,0);
         
 		// Ejercicio 4A: Primer Triángulo
-		// glDrawElements(GL_TRIANGLES, 3, GL_UNSIGNED_INT, 0);
+		// Modificación de indice para obtener el resultado
+		//glDrawElements(GL_TRIANGLES, 3, GL_UNSIGNED_INT, 0);
 
 		// Ejercicio 4B: Segundo Triángulo
-		// glDrawElements(GL_TRIANGLES, 3, GL_UNSIGNED_INT, (void*)(3 * sizeof(GLuint)));
+		//glDrawElements(GL_TRIANGLES, 3, GL_UNSIGNED_INT, (void*)(3 * sizeof(GLuint)));
 
         //glBindVertexArray(0);
     
