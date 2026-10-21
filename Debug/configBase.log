@@ -1,3 +1,12 @@
-﻿  Modelado_Jerarquico.cpp
-LINK : warning LNK4098: la biblioteca predeterminada'MSVCRT' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
+﻿  Iluminacion.cpp
+C:\Users\hecma\Desktop\CGIH1220271\configBase\Iluminacion.cpp(153,30): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\hecma\Desktop\CGIH1220271\configBase\Iluminacion.cpp(258,17): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\hecma\Desktop\CGIH1220271\configBase\Iluminacion.cpp(259,17): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\hecma\Desktop\CGIH1220271\configBase\Iluminacion.cpp(263,21): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\hecma\Desktop\CGIH1220271\configBase\Iluminacion.cpp(264,21): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\hecma\Desktop\CGIH1220271\configBase\Iluminacion.cpp(265,13): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\hecma\Desktop\CGIH1220271\configBase\Iluminacion.cpp(266,13): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+soil2-debug.lib(image_DXT.obj) : warning LNK4099: no se encontró PDB 'soil2-debug.pdb' con 'soil2-debug.lib(image_DXT.obj)' o en 'C:\Users\hecma\Desktop\CGIH1220271\Debug\soil2-debug.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+soil2-debug.lib(image_helper.obj) : warning LNK4099: no se encontró PDB 'soil2-debug.pdb' con 'soil2-debug.lib(image_helper.obj)' o en 'C:\Users\hecma\Desktop\CGIH1220271\Debug\soil2-debug.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+soil2-debug.lib(SOIL2.obj) : warning LNK4099: no se encontró PDB 'soil2-debug.pdb' con 'soil2-debug.lib(SOIL2.obj)' o en 'C:\Users\hecma\Desktop\CGIH1220271\Debug\soil2-debug.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
   configBase.vcxproj -> C:\Users\hecma\Desktop\CGIH1220271\Debug\configBase.exe
