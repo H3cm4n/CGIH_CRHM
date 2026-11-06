@@ -1,14 +1,9 @@
-.vs
-Debug
-configInicial/Debug
-External Libraries/Debug/
-x64/
 .vs/
 Debug/
 x64/
-.vs/
-configBase/Debug/
-configBase/x64/
-*.pdb
 *.ilk
-*.exe
+*.pdb
+*.obj
+*.tlog
+*.log
+*.recipe
